@@ -1,0 +1,30 @@
+/**
+  所有scss总入口
+*/
+/**
+    组件通用样式
+*/
+.grow-up-navTitle {
+  background: inherit;
+  background-color: inherit;
+  background-color: rgba(249, 249, 249, 1);
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(228, 228, 228, 1);
+  border-radius: 0px;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/***
+    修复element表格错位问题
+*/
+body .el-table th.gutter {
+  display: table-cell !important;
+}
+
+.el-submenu__title i {
+  color: #fff;
+}
