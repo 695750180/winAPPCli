@@ -5,6 +5,7 @@ VUE+ElementUI+electron 开发windows应用程序
 注：若要在.vue文件中使用typescript语法。只需替换<script>标签为<script lang="ts">即可。
 
 脚手架的入口文件为main.ts文件。
+app.js为electron打包的入口文件
 
 依赖安装：
 	npm i   建议设置好淘宝镜像代理再安装
