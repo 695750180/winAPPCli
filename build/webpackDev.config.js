@@ -3,6 +3,7 @@ let HtmlWebpackPlugin = require("html-webpack-plugin");
 let baseConfig = require('./webpack.base.config');
 module.exports = {
     devServer: baseConfig.devServer,
+    target:  baseConfig.target,
     mode: "development", //模式：开发模式和生产模式
     entry: path.resolve(__dirname, "../src/main.ts"),
     devtool: 'inline-source-map',

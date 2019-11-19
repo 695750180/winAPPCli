@@ -4,6 +4,7 @@ execSync('npm run build', {
     stdio: 'inherit',
 });
 
+
 execSync('electron .', {
     stdio: 'inherit',
 });

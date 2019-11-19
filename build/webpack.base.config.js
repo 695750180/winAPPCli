@@ -4,6 +4,7 @@
 let path = require('path');
 let VueLoaderPlugin = require('vue-loader/lib/plugin');
 module.exports = {
+    target: 'electron-renderer',
     devServer: { //node服务，需要先安装node服务依赖 （webpack-dev-server）
         port: 3000,
         progress: true,

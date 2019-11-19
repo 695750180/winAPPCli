@@ -7,7 +7,7 @@ let webpack = require('webpack');
 //let BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin
 module.exports = {
     mode: 'production', //模式：开发模式和生产模式
-
+    target: baseConfig.target,
     entry: path.resolve(__dirname, '../src/main.ts'),
 
     // externals: {

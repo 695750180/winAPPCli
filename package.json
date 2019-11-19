@@ -23,6 +23,7 @@
     "@babel/core": "^7.5.0",
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-stage-2": "^7.0.0",
+    "babel-cli": "^6.26.0",
     "babel-helper-vue-jsx-merge-props": "^2.0.3",
     "babel-loader": "^8.0.6",
     "babel-plugin-component": "^1.1.1",
